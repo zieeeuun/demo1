@@ -31,5 +31,8 @@ public class Demo1Application {
     public String getB() {
         return "B";
     }
+    public String getc() {
+        return "c";
+    }
 
 }
