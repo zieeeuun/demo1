@@ -3,17 +3,59 @@
 <head>
     <title>비전공자 수업 데모</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            display: flex;
+            height: 100vh;
+        }
+        /* 사이드바 스타일 */
+        nav {
+            width: 200px;
+            background-color: #2c3e50;
+            color: white;
+            padding-top: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav li {
+            padding: 15px 20px;
+            cursor: pointer;
+            transition: background 0.3s;
+            text-align: left;
+        }
+        nav li:hover {
+            background-color: #34495e;
+        }
+        /* 메인 콘텐츠 스타일 */
+        main {
+            flex-grow: 1;
+            padding: 50px;
+            text-align: center;
+        }
         h1 { color: #2c3e50; }
         p { color: #7f8c8d; }
     </style>
 </head>
 <body>
-<h1>🎉 축하합니다! 배포에 성공하셨습니다!</h1>
-<p>CodeRabbit + Slack + GitHub Pages 조합을 완성하셨네요.</p>
-<p>이 웹사이트는 전 세계 어디서든 이 URL로 접속할 수 있습니다.</p>
+<nav>
+    <ul>
+        <li>🏠 홈</li>
+        <li>📊 통계</li>
+        <li>⚙️ 설정</li>
+        <li>👤 프로필</li>
+    </ul>
+</nav>
+<main>
+    <h1>🎉 축하합니다! 배포에 성공하셨습니다!</h1>
+    <p>CodeRabbit + Slack + GitHub Pages 조합을 완성하셨네요.</p>
+    <p>이 웹사이트는 전 세계 어디서든 이 URL로 접속할 수 있습니다.</p>
 
-<p>이건 feature/PR 테스트 코드입니다.</p>
+    <p>이건 feature/PR 테스트 코드입니다.</p>
+</main>
 </body>
 </html>
+
 
